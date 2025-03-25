@@ -1,0 +1,9 @@
+Flask
+pdfminer.six
+pytesseract
+Pillow
+python-docx
+spacy
+openai
+gunicorn
+camelot-py[cv]

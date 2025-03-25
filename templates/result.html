@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Processing Result</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Processing Result</h1>
+
+      <!-- Горизонтальное расположение блоков -->
+      <div class="result-container">
+        <!-- Extracted Text -->
+        <div class="result-box">
+          <h2>Extracted Text:</h2>
+          <pre>{{ extracted_text }}</pre>
+        </div>
+
+        <!-- Cleaned Text -->
+        <div class="result-box">
+          <h2>Cleaned Text:</h2>
+          <pre>{{ cleaned_text }}</pre>
+        </div>
+
+        <!-- Explanation -->
+        <div class="result-box">
+          <h2>Explanation:</h2>
+          <pre>{{ explanation }}</pre>
+        </div>
+      </div>
+
+      <a href="/" class="button">Upload Another File</a>
+    </div>
+  </body>
+</html>
