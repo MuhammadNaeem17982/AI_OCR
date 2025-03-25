@@ -4,6 +4,9 @@ pytesseract
 Pillow
 python-docx
 spacy
+spacy-transformers
+torch
+transformers
 openai
 gunicorn
 en_core_web_trf
