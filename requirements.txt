@@ -9,5 +9,4 @@ torch
 transformers
 openai
 gunicorn
-en_core_web_trf
 camelot-py[cv]
