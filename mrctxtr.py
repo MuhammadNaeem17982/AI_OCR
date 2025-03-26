@@ -8,7 +8,7 @@ import spacy
 import openai
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-nlp = spacy.load("en_core_web_trf")
+nlp = spacy.load("en_core_web_md")
 openai.api_key = ''
 
 def clean_text(text):
